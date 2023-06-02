@@ -19,10 +19,7 @@ import lombok.Setter;
 public class Counselor {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer counselorId;
-    private String firstName;
-    private String lastName;
-    private Date date;
+    private Long counselorId;
     private String specialization;
     private String description;
 
